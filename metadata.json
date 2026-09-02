@@ -1,0 +1,6 @@
+{
+  "name": "RadiologyBeyondTheImage",
+  "description": "An educational radiology platform with AI Q&A, articles, and admin dashboard. strictly not for diagnosis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

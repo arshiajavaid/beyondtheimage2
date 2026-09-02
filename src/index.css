@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import "tailwindcss";
+
+.font-cursive {
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: normal !important;
+}
+
+body {
+  background-color: #030712;
+  color: #f8fafc;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: -5%;
+  left: -5%;
+  width: 110vw;
+  height: 110vh;
+  background-image: url('/radiology-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px) brightness(0.6);
+  z-index: -1;
+}
